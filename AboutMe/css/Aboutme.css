@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+}
+
+.middle {
+	text-align: center;
+}
+
+.abtbar {
+	width: 60%
+	margin 0;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.abtbar ul {
+	list-style-type: none;
+
+
+}
+
+.abtbar ul li {
+	display: inline;
+
+}
+
+.abtbar ul li a {
+	text-decoration: none;
+}
+
+.abtbar ul li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+}
+.mainlinks li {
+	list-style-type: none;
+}
+
+.mainlinks ul li {
+	display: inline;
+}
+
+.mainlinks ul li a {
+	text-decoration: none;
+}
+
+.mainlinks ul li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+body {
+	background: url(../pictures/programming1.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media all and (min-width: 769px) (max-width: 992px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
