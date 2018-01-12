@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+}
+
+body {
+	background: url(../pictures/about.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.abtbar {
+	width: 60%
+	margin: 0 auto;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.abtbar ul {
+	list-style-type: none;
+
+}
+
+.abtbar ul li {
+	display: inline;
+	font-size: 15pt;
+
+}
+
+.abtbar ul li a {
+	text-decoration: none;
+}
+
+.abtbar ul li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 17pt;
+	font-family: Optima, sans-serif
+}
+
+img {
+	height: 300px;
+	width: 400px;
+	margin-left: 3%;
+	float: left;
+}
+
+@media all and (max-width: 480px) {
+	p {
+	font-size: 11pt;
+	font-family: Optima, sans-serif
+	}
+	img {
+		width: 370px;
+		height: 280px;
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+	.abtbar {
+		text-align: center;
+	}
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+	p {
+	font-size: 13pt;
+	font-family: Optima, sans-serif
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+}
+
+@media all and (min-width: 769px) (max-width: 992px) {
+	p {
+	font-size: 17pt;
+	font-family: Optima, sans-serif
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

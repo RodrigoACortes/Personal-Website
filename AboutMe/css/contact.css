@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+}
+
+body {
+	background: url(../pictures/contactme.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.abtbar {
+	width: 60%
+	margin: 0 auto;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.abtbar ul {
+	list-style-type: none;
+
+}
+
+.abtbar ul li {
+	display: inline;
+	font-size: 15pt;
+
+}
+
+.abtbar ul li a {
+	text-decoration: none;
+}
+
+.abtbar ul li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contactmelink {
+	text-align: center;
+	padding: 23% 0;
+	font-size: 30pt
+}
+
+@media all and (max-width: 480px) {
+	.contactmelink {
+	text-align: center;
+	padding: 65% 0;
+	font-size: 15pt
+}
+
+	.abtbar ul li {
+	display: inline;
+	font-size: 10pt;
+
+}
+	.gtouch {
+		font-size: 10pt;
+	}
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+	.contactmelink {
+	text-align: center;
+	padding: 40% 0;
+	font-size: 20pt
+}
+	.abtbar ul li {
+	display: inline;
+	font-size: 12pt;
+
+}
+	.gtouch {
+		font-size: 12pt;
+	}
+
+}
+
+@media all and (min-width: 769px) (max-width: 992px) {
+	.contactmelink {
+	text-align: center;
+	padding: 32% 0;
+	font-size: 30pt
+}
+
+	.gtouch {
+		font-size: 15pt;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
